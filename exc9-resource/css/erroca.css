@@ -1,0 +1,321 @@
+/**********header**********/
+
+* {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    opacity: 99%;
+}
+
+.menu {
+    display: inline-block;
+    height: 70px;
+    background-color: white;
+    font-family: assistant;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(96,96,96);
+    overflow: hidden;
+}
+.logo img {
+    HEIGHT: 25px;
+    vertical-align: middle;
+}
+.shopping img {
+    height: 20px;
+    vertical-align: middle;
+}
+.menu.shopping {
+    padding: 20px 20px 20px 100px;
+}
+.menu.category {
+    padding: 20px 20px;
+}
+.menu.logo {
+    padding: 20px 10px;
+}
+.menu-item {
+    padding-right: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(96,96,96)
+}
+.menu a:hover {
+    text-decoration: overline;
+}
+
+/* Michael */
+.upper-featured {
+    margin-top: 90px;
+    TEXT-align: center;
+}
+
+.first-strip{
+    height: 500px;
+    position: relative;
+}
+
+.first-strip .brandhouse{
+    margin: 25px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    box-align: center;
+    position: relative;
+}
+
+.first-strip .glasshouse{
+    margin: 25px;
+    width: auto;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 25px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align: center;
+}
+
+.brandhouse-img1{
+    display: inline-block;
+    align-items: stretch;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.brandhouse-img2{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.glasshouse-img{
+    display: inline;
+    /* width: 100%; */
+}
+
+.button {
+    position: absolute;
+    padding: 5px 5px;
+    background-color: black;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    border: grey 2px solid;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    /* height: auto; */
+}
+
+/* .first-strip a{ */
+.brandhouse a{
+    text-decoration: none;
+    color: white;
+    /* text-indent: -10px; */
+    /* text-align: center; */
+    vertical-align: center;
+    font-size: 20px;
+    font-family: "Arial", Sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+}
+
+.glasshouse a{
+    text-decoration: none;
+    color: white;
+    vertical-align: center;
+    font-size: 20px;
+    font-family: "Arial", Sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+}
+
+.brand-but{
+    position: absolute;
+    bottom: 35px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.women-but{
+    position: absolute;
+    bottom: 35px;
+    left: 455px;
+    cursor: pointer;
+ }
+
+.man-but{
+    position: absolute;
+    bottom: 35px;
+    left: 1170px;
+    cursor: pointer;
+}
+
+.under-but{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    cursor: pointer;
+}
+
+/* Rabin */
+.featured {
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* div include beckum with glass and glass for screens  */
+div .jet-hotspots__container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+div .img-jet-hotspots__container_beckhum_with_glass {
+    display: inline-block;
+}
+
+div .img-jet-hotspots__container_glass_for_screen {
+    display: inline-block;
+}
+
+/* images include beckum with glass and glass for screens */
+.img1-b {
+    width: 1500;
+    height: 278px;
+}
+
+.img1-g {
+    width: 800;
+    height: 278px;
+}
+
+/* buttons shop now & brand of mounth  */
+.shop-now-but {
+    position: absolute;
+    bottom: -110px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.brand-of-month-but {
+    position: absolute;
+    bottom: -100px;
+    left: 600px;
+    cursor: pointer;
+}
+
+.img-jet-hotspots__container_glass_for_screen a {
+    text-decoration: none;
+    color: white;
+    vertical-align: center;
+    font-size: 20px;
+    font-family: "Arial", Sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    /* z-index: -1; */
+}
+
+/* div contains list of images neta and instegram  */
+div .col-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.inside-col-inner {
+    display: inline;
+}
+
+.inside-col-inner a {
+    display: inline;
+}
+
+.jet-hotspots__item-text {
+    margin: 0 5px;
+    overflow-wrap: break-word;
+}
+
+.inside-col-inner-img {
+    width: 290px;
+    height: 278px;
+}
+
+/* footer styling */
+.footer {
+    margin-top: 70px;
+    margin-right: 300px;
+}
+
+.footer-item {
+    color: #54595F;
+    font-family: "Assistant", Sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    display: inline-block;
+    word-wrap: break-word;
+    width: 380px;
+    height: 130px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.footer-item-desc {
+    position: relative;
+    margin-right: 120px;
+}
+
+.footer-item-desc p ,
+.footer-item-desc h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.footer-item .footer-img {
+    width: 100px;
+    height: 100px;
+    transition-duration: .3s;
+    position: absolute;
+}
+
+.footer-item .footer-img:active,
+.footer-item .footer-img:focus,
+.footer-item .footer-img:hover {
+    transform: scale(1.1);
+}
+
+.footer-lower {
+    position: fixed;
+}
+
+.footer-lower a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .brandhouse-img{
+        width: 100%;
+        align-items: stretch;
+    }
+    .glasshouse-img{
+        width: 100%;
+        align-items: stretch;
+    }
+}
