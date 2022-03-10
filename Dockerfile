@@ -1,4 +1,4 @@
-FROM java:8
+FROM ubuntu:latest
 LABEL maintainer = "michaeljana@gmail.com"
 VOLUME /tmp
 ADD target/spring-petclinic-2.1.0.jar app.jar
